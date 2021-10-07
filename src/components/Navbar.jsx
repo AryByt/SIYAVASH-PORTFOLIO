@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-
+import { BsCodeSlash } from 'react-icons/bs';
 const Nav = ({ user }) => {
   return (
-    <div className="flex justify-around bg-green-600 text-white text-bold  font-mono ">
+    <div className="flex justify-around bg-green-600 text-white text-bold font-mono text-bold text-lg p-2  ">
+      <BsCodeSlash size="25" />
       <div>
         <nav>
           <div className="nav-bar">
