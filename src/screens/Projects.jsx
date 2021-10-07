@@ -4,7 +4,7 @@ export default function Projects() {
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 bg-gray-200 ">
       <div class="max-w-sm rounded overflow-hidden shadow-2xl">
         <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank" rel="noreferrer">
-          <img class="w-full " src="lol.jpg" alt="SCP-PROJECT" />
+          <img class="w-full" src="lol.jpg" alt="SCP-PROJECT" />
         </a>
         <div class="px-6 py-4 pb-10">
           <div class="font-bold text-xl mb-2 ">
@@ -14,7 +14,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-bounce">
                 LOLINFO
               </span>
             </a>
@@ -25,7 +25,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-bounce">
                 GITHUB
               </span>
             </a>
@@ -36,19 +36,19 @@ export default function Projects() {
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 ">
             HTML
           </span>
-          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 ">
             WireFrame
           </span>
-          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2  ">
             CSS
           </span>
-          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 ">
             Netlify
           </span>
-          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+          <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2  ">
             JavaScript
           </span>
         </div>
@@ -66,7 +66,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-pulse ">
                 SCP-APP
               </span>
             </a>
@@ -77,7 +77,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-pulse ">
                 GITHUB
               </span>
             </a>
