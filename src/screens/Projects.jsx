@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
     <div class="  p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank">
+        <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank" rel="noreferrer">
           <img class="w-full " src="lol.jpg" alt="SCP-PROJECT" />
         </a>
         <div class="px-6 py-4 pb-10">
@@ -56,7 +55,7 @@ export default function Projects() {
       </div>
 
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
+        <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank" rel="noreferrer">
           <img class="w-full " src="scp.jpg" alt="SCP-PROJECT" />
         </a>
         <div class="px-6 py-4">
@@ -107,7 +106,7 @@ export default function Projects() {
       </div>
 
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <a href="https://61012b87a5da71b8ffa6a634--aqua-hunters.netlify.app/" target="_blank">
+        <a href="https://61012b87a5da71b8ffa6a634--aqua-hunters.netlify.app/" target="_blank" rel="noreferrer">
           <img class="w-full " src="Fish.jpg" alt="SCP-PROJECT" />
         </a>
         <div class="px-6 py-4">
@@ -164,7 +163,7 @@ export default function Projects() {
       </div>
 
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <a href="https://siyas-pcparts.netlify.app/" target="_blank">
+        <a href="https://siyas-pcparts.netlify.app/" target="_blank" rel="noreferrer">
           <img class="w-full " src="pc.jpg" alt="SCP-PROJECT" />
         </a>
         <div class="px-6 py-4">
