@@ -1,18 +1,16 @@
 import React from 'react';
-import { AiFillLinkedin } from "react-icons/ai";
-import {AiFillPhone } from "react-icons/ai";
-import {AiFillGithub } from "react-icons/ai";
-import { SiGmail} from "react-icons/si";
-
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillPhone } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+import { SiGmail } from 'react-icons/si';
+import { FiPhoneCall } from 'react-icons/fi';
 export default function Home() {
-
   const handleEmailMe = () => {
     window.open('mailto:Vashsiya81@gmail.com');
   };
 
-
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-300">
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0 ">
         <div
           id="profile"
@@ -20,7 +18,6 @@ export default function Home() {
         >
           <div className="p-4 md:p-12 text-center lg:text-left">
             <div className=" background-image: url('https://source.unsplash.com/MP0IUfwrn0A') block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"></div>
-
             <h1 className="text-3xl font-bold pt-8 lg:pt-0 font-mono">Siyavash</h1>
             <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
             <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
@@ -43,6 +40,11 @@ export default function Home() {
               </svg>
               Austin Tx
             </p>
+            <p className=" font-mono pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+              <FiPhoneCall size="15" className="text-green-900" />
+              (737) 240-5023
+            </p>
+
             <p className="pt-8 text-sm font-serif ">
               Resilient and tireless Junior Developer who enjoys thinking outside of the box to find
               creative and life-changing solutions. An effective leader, I rely on my exceptional
@@ -50,34 +52,55 @@ export default function Home() {
               When I’m not coding or helping my friends with their issue , you can find me putting
               toghather a new pc or upgrading the one i have
             </p>
-
             <div className="pt-12 pb-8 font-mono">
-              <button onClick={handleEmailMe} className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+              <button
+                onClick={handleEmailMe}
+                className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full"
+              >
                 Get In Touch
               </button>
             </div>
-
             <div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-              <a className="link" href="https://github.com/SiyavashTorabi/" data-tippy-content="@github_handle" target="_blank" rel="noreferrer">
-                <AiFillGithub size={30}/>
+              <a
+                className="link"
+                href="https://github.com/SiyavashTorabi/"
+                data-tippy-content="@github_handle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillGithub size={30} />
               </a>
-              <a onClick={handleEmailMe} className="link" href="https://www.linkedin.com/in/siyavash-torabi/" data-tippy-content="@unsplash_handle" target="_blank" rel="noreferrer">
-                <SiGmail size={30}/>
+              <a
+                onClick={handleEmailMe}
+                className="link"
+                href="https://www.linkedin.com/in/siyavash-torabi/"
+                data-tippy-content="@unsplash_handle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SiGmail size={30} />
               </a>
               <a className="link" href="7372400221" data-tippy-content="@dribble_handle">
-                
-                <AiFillPhone size={30}/>
-
+                <AiFillPhone size={30} />
               </a>
-              <a className="link" href="https://www.linkedin.com/in/siyavash-torabi/" data-tippy-content="@instagram_handle" target="_blank" rel="noreferrer">
-            
-                <AiFillLinkedin size={30}/>
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/siyavash-torabi/"
+                data-tippy-content="@instagram_handle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillLinkedin size={30} />
               </a>
             </div>
           </div>
         </div>
         <div className="w-full lg:w-4/12">
-          <img src="siya.JPG" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="siyavash"/>
+          <img
+            src="siya.JPG"
+            className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+            alt="siyavash"
+          />
         </div>
       </div>
     </div>
