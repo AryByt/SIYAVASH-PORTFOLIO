@@ -2,75 +2,148 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
-    <div className="projects">
-      <div className="project1">
-        <h2>SCP-APP</h2>
+    <div class="p-10">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
-          deployed site
+          <img class="w-full " src="SCP.jpg" alt="SCP-PROJECT" />
         </a>
-        <h3>FE Only</h3>
-        <ul>
-          Languages/Apps used creating this Project:
-          <li>React</li>
-          <li>/</li>
-          <li>Netlify</li>
-          <li>WireFrame</li>
-          <li>Air Table</li>
-        </ul>
-        <img src="SCP.jpg" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 ">
+            <a
+              href="https://lucid-wiles-f50192.netlify.app/"
+              target="_blank"
+              className="hover:underline hover:bg-green-700 hover:text-white hover:bold"
+              rel="noopener noreferrer"
+            >
+              SCP-APP
+            </a>
+          </div>
+          <p class="text-gray-700 text-base">
+            An App created to simulate SCP-Foundation search engine if such foundation ever existed.
+            SCP-app is created using react for FE only.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            React
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            WireFrame
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Air Table
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Netlify
+          </span>
+        </div>
       </div>
-      <div className="project2">
-        <h2>Aqua Hunters</h2>
-        <a href="https://61012b87a5da71b8ffa6a634--aqua-hunters.netlify.app/" target="_blank">
-          deployed site
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
+          <img class="w-full " src="SCP.jpg" alt="SCP-PROJECT" />
         </a>
-        <h3>Full Stack</h3>
-        <ul>
-          Languages/Apps used creating this Project
-          <li>React</li>
-          <li>Ruby</li>
-          <li>Rails</li>
-          <li>/</li>
-          <li>Heroku</li>
-          <li>Netlify</li>
-          <li>Figma</li>
-        </ul>
-        <img src="Fish.jpg" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 ">
+            <a
+              href="https://lucid-wiles-f50192.netlify.app/"
+              target="_blank"
+              className="hover:underline hover:bg-green-700 hover:text-white hover:bold"
+              rel="noopener noreferrer"
+            >
+              SCP-APP
+            </a>
+          </div>
+          <p class="text-gray-700 text-base">
+            An App created to simulate SCP-Foundation search engine if such foundation ever existed.
+            SCP-app is created using react for FE only.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            React
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            WireFrame
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Air Table
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Netlify
+          </span>
+        </div>
       </div>
-      <div className="project3">
-        <h2>PCParts</h2>
-        <a href="https://siyas-pcparts.netlify.app/" target="_blank">
-          deployed site
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
+          <img class="w-full " src="SCP.jpg" alt="SCP-PROJECT" />
         </a>
-        <h3>Full Stack</h3>
-        <ul>
-          Languages/Apps used creating this Project
-          <li>React</li>
-          <li>JS</li>
-          <li>Express</li>
-          <li>/</li>
-          <li>Heroku</li>
-          <li>Netlify</li>
-          <li>Figma</li>
-        </ul>
-        <img src="pc.jpg" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 ">
+            <a
+              href="https://lucid-wiles-f50192.netlify.app/"
+              target="_blank"
+              className="hover:underline hover:bg-green-700 hover:text-white hover:bold"
+              rel="noopener noreferrer"
+            >
+              SCP-APP
+            </a>
+          </div>
+          <p class="text-gray-700 text-base">
+            An App created to simulate SCP-Foundation search engine if such foundation ever existed.
+            SCP-app is created using react for FE only.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            React
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            WireFrame
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Air Table
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Netlify
+          </span>
+        </div>
       </div>
-      <div className="project4">
-        <h2>lolinfo</h2>
-        <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank">
-          deployed site
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
+          <img class="w-full " src="SCP.jpg" alt="SCP-PROJECT" />
         </a>
-        <h3>FE Only</h3>
-        <ul>
-          Languages/Apps used creating this Project
-          <li>HTML</li>
-          <li>JS</li>
-          <li>CSS</li>
-          <li>/</li>
-          <li>Netlify</li>
-          <li>Figma</li>
-        </ul>
-        <img src="lol.jpg" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 ">
+            <a
+              href="https://lucid-wiles-f50192.netlify.app/"
+              target="_blank"
+              className="hover:underline hover:bg-green-700 hover:text-white hover:bold"
+              rel="noopener noreferrer"
+            >
+              SCP-APP
+            </a>
+          </div>
+          <p class="text-gray-700 text-base">
+            An App created to simulate SCP-Foundation search engine if such foundation ever existed.
+            SCP-app is created using react for FE only.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            React
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            WireFrame
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Air Table
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Netlify
+          </span>
+        </div>
       </div>
     </div>
   );
