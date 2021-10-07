@@ -5,6 +5,12 @@ import {AiFillGithub } from "react-icons/ai";
 import { SiGmail} from "react-icons/si";
 
 export default function Home() {
+
+  const handleEmailMe = () => {
+    window.open('mailto:Vashsiya81@gmail.com');
+  };
+
+
   return (
     <div className="bg-gray-100">
       <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0 ">
@@ -46,7 +52,7 @@ export default function Home() {
             </p>
 
             <div class="pt-12 pb-8 font-mono">
-              <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+              <button onClick={handleEmailMe} class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
                 Get In Touch
               </button>
             </div>
@@ -55,7 +61,7 @@ export default function Home() {
               <a class="link" href="https://github.com/SiyavashTorabi/" data-tippy-content="@github_handle" target="_blank">
                 <AiFillGithub size={30}/>
               </a>
-              <a class="link" href="https://www.linkedin.com/in/siyavash-torabi/" data-tippy-content="@unsplash_handle" target="_blank">
+              <a onClick={handleEmailMe} class="link" href="https://www.linkedin.com/in/siyavash-torabi/" data-tippy-content="@unsplash_handle" target="_blank">
                 <SiGmail size={30}/>
               </a>
               <a class="link" href="#" data-tippy-content="@dribble_handle">

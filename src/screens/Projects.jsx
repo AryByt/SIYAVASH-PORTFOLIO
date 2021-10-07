@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
-    <div class="grid grid-cols-2">
+    <div class="  p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank">
           <img class="w-full " src="lol.jpg" alt="SCP-PROJECT" />
