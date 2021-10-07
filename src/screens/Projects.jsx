@@ -2,13 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
-    <div class="p-10">
-      
+    <div class="grid grid-cols-2">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://siyavashtorabi.github.io/lolinfo/" target="_blank">
           <img class="w-full " src="lol.jpg" alt="SCP-PROJECT" />
         </a>
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 pb-10">
           <div class="font-bold text-xl mb-2 ">
             <a
               href="https://siyavashtorabi.github.io/lolinfo/"
@@ -16,9 +15,9 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            LOLINFO
-          </span>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                LOLINFO
+              </span>
             </a>
 
             <a
@@ -27,15 +26,14 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            GITHUB
-          </span>
-          </a>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                GITHUB
+              </span>
+            </a>
           </div>
           <p class="text-gray-700 text-base">
-            An App created to give helpful tips and back story on the selected champions for the game League of legends.
-            
+            An App created to give helpful tips and back story on the selected champions for the
+            game League of legends.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
@@ -56,7 +54,7 @@ export default function Projects() {
           </span>
         </div>
       </div>
-///////////////
+
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://lucid-wiles-f50192.netlify.app/" target="_blank">
           <img class="w-full " src="scp.jpg" alt="SCP-PROJECT" />
@@ -69,9 +67,9 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            SCP-APP
-          </span>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                SCP-APP
+              </span>
             </a>
 
             <a
@@ -80,14 +78,13 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            GITHUB
-          </span>
-          </a>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                GITHUB
+              </span>
+            </a>
           </div>
           <p class="text-gray-700 text-base">
-          An App created to simulate SCP-Foundation search engine if such foundation ever existed.            
+            An App created to simulate SCP-Foundation search engine if such foundation ever existed.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
@@ -108,7 +105,7 @@ export default function Projects() {
           </span>
         </div>
       </div>
-//////////
+
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://61012b87a5da71b8ffa6a634--aqua-hunters.netlify.app/" target="_blank">
           <img class="w-full " src="Fish.jpg" alt="SCP-PROJECT" />
@@ -121,9 +118,9 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            AQUA HUNTERS
-          </span>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                AQUA HUNTERS
+              </span>
             </a>
             <a
               href="https://github.com/SiyavashTorabi/Aqua-Hunters"
@@ -131,14 +128,14 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            GITHUB
-          </span>
-          </a>
-
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                GITHUB
+              </span>
+            </a>
           </div>
           <p class="text-gray-700 text-base">
-          An App that gives the ability to users to share information and tips on aquatic life form in the region.            
+            An App that gives the ability to users to share information and tips on aquatic life
+            form in the region.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
@@ -165,7 +162,7 @@ export default function Projects() {
           </span>
         </div>
       </div>
-////////
+
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <a href="https://siyas-pcparts.netlify.app/" target="_blank">
           <img class="w-full " src="pc.jpg" alt="SCP-PROJECT" />
@@ -178,9 +175,9 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            PCPARTS
-          </span>
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                PCPARTS
+              </span>
             </a>
             <a
               href="https://github.com/SiyavashTorabi/PCParts"
@@ -188,16 +185,13 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-
-            <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
-            GITHUB
-          </span>
-          </a>
-
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+                GITHUB
+              </span>
+            </a>
           </div>
           <p class="text-gray-700 text-base">
-          An App in which user is able to create, check, update, and delete details on pc parts.
-            
+            An App in which user is able to create, check, update, and delete details on pc parts.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
@@ -205,7 +199,7 @@ export default function Projects() {
             JavaScript
           </span>
           <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-           React
+            React
           </span>
           <span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
             WireFrame
@@ -230,7 +224,6 @@ export default function Projects() {
           </span>
         </div>
       </div>
-
     </div>
   );
 }
