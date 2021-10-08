@@ -80,9 +80,9 @@ export default function Home() {
               >
                 <SiGmail size={30} />
               </a>
-              <a className="link" href="7372400221" data-tippy-content="@dribble_handle">
+              
                 <AiFillPhone size={30} />
-              </a>
+              
               <a
                 className="link"
                 href="https://www.linkedin.com/in/siyavash-torabi/"

@@ -14,7 +14,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-bounce">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 LOLINFO
               </span>
             </a>
@@ -25,7 +25,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-bounce">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 GITHUB
               </span>
             </a>
@@ -66,7 +66,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-pulse ">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse ">
                 SCP-APP
               </span>
             </a>
@@ -77,7 +77,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2 animate-pulse ">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 GITHUB
               </span>
             </a>
@@ -121,7 +121,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 AQUA HUNTERS
               </span>
             </a>
@@ -131,7 +131,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2   group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 GITHUB
               </span>
             </a>
@@ -178,7 +178,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 PCPARTS
               </span>
             </a>
@@ -188,7 +188,7 @@ export default function Projects() {
               className="hover:underline text-black  hover:bold"
               rel="noopener noreferrer"
             >
-              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-white ml-10 mb-2">
+              <span class="inline-block bg-green-600 rounded-full px-5 py-3 text-sm font-semibold text-gray-200 ml-10 mb-2 group border-indigo-500 hover:bg-black hover:shadow-lg hover:border-transparent  group-hover:text-gray-900 animate-pulse">
                 GITHUB
               </span>
             </a>
