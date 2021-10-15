@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { AiFillPhone } from 'react-icons/ai';
+
 import { AiFillGithub } from 'react-icons/ai';
 import { SiGmail } from 'react-icons/si';
 import { FiPhoneCall } from 'react-icons/fi';
@@ -81,7 +81,7 @@ export default function Home() {
                 <SiGmail size={30} />
               </a>
               
-                <AiFillPhone size={30} />
+               
               
               <a
                 className="link"
